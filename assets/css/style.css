@@ -156,9 +156,16 @@ main {
      margin-bottom:  20px;
      /* make the square image info a circle*/
      border-radius: 50%;
+     max-width: 300px;
+     max-height: 300px;
+     
 
 }
-
+ #benefits-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
 
 /*footer*/
 #social-networks {
